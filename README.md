@@ -7,3 +7,16 @@ command + control + space
 
 ## CSS
 selector {property: value;}
+
+## Display
+- block
+- inline
+- inline-block
+- none
+
+- visibility: hidden;
+
+## Common Inline Elements
+- Span <span>
+- Images <img>
+- Anchors <a>
