@@ -20,3 +20,12 @@ selector {property: value;}
 - Span <span>
 - Images <img>
 - Anchors <a>
+
+## Positioning
+- Relative: to where element should have been
+- Absolute: vis-a-vis parent element
+- Fixed:
+
+## Font Sizing
+16px = 100% = 1em (the width of the capital letter M)
+CSS3 - rem (root) - isn't affected by other settings
