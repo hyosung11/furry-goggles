@@ -33,8 +33,9 @@ p {
 hr {
   border: dotted #EAF6F6 6px;
   border-bottom: none;
-  width: 4%;
   margin: 100px auto;
+  width: 4%;
+
 }
 
 .top-container {
@@ -131,9 +132,9 @@ hr {
 }
 
 .bottom-cloud {
-  position: absolute;
-  left: 250px;
   bottom: 300px;
+  left: 250px;
+  position: absolute;
 }
 
 a {
