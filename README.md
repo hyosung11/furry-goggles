@@ -29,3 +29,8 @@ selector {property: value;}
 ## Font Sizing
 16px = 100% = 1em (the width of the capital letter M)
 CSS3 - rem (root) - isn't affected by other settings
+
+## CDN - content delivery network
+- reduce latency
+
+## Wireframe -> Mockup -> prototype (optional)
