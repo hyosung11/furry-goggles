@@ -37,3 +37,12 @@ CSS3 - rem (root) - isn't affected by other settings
 
 
 ## CSS Z-Index and Stacking Order
+- children sit on top of their parents
+- HTML elements have a natural stacking order
+- elements by default are position: static
+- position: absolute takes elements out of HTML flow
+- Z-Index by default is 0
+- z-index: 1; brings the element closest to the user and farthest away from screen.
+- z-index: -1; puts the element farthest away from user.
+- position must be set to absolute, relative, or fixed to use the Z-Index; can't be the default static position.  
+- review stacking order flowchart
