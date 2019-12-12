@@ -34,3 +34,6 @@ CSS3 - rem (root) - isn't affected by other settings
 - reduce latency
 
 ## Wireframe -> Mockup -> prototype (optional)
+
+
+## CSS Z-Index and Stacking Order
