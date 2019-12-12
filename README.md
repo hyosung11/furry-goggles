@@ -46,3 +46,8 @@ CSS3 - rem (root) - isn't affected by other settings
 - z-index: -1; puts the element farthest away from user.
 - position must be set to absolute, relative, or fixed to use the Z-Index; can't be the default static position.  
 - review stacking order flowchart
+
+## Media Query Breakpoints for Responsive Design
+- Mobile First
+- @media<type><feature>
+- viewport: the size of the screen that image is being displayed on
