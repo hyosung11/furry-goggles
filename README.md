@@ -77,3 +77,9 @@ h1, h2 {
 h1.title {
   color: red;
 }
+
+## CSS - Selector Priority
+1. #IDs
+2. .classes
+3. <elements>
+- don't use inline style in your HTML

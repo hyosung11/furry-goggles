@@ -1,12 +1,11 @@
-/* HTML Elements  */
 
 body {
   font-family: "Montserrat";
   text-align: center;
 }
 
-h1, h2, h3 {
-  font-family: "Montserrat";
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Montserrat-Bold";
 }
 
 p {
@@ -16,21 +15,19 @@ p {
 /* Headings */
 
 .big-heading {
-  font-family: "Montserrat";
+  font-family: "Montserrat-Black";
   font-size: 3.5rem;
-  font-weight: bold;
   line-height: 1.5;
 }
 
 .section-heading {
   font-size: 3rem;
-  font-weight: bold;
   line-height: 1.5;
 }
 
 /* Containers */
 
-.container-fluid {
+.container-fluid{
   padding: 7% 15%;
 }
 
@@ -66,7 +63,7 @@ p {
   font-family: "Montserrat-Light";
 }
 
-/* Download Buttons */
+/* Buttons */
 
 .download-button {
   margin: 5% 3% 5% 0;
@@ -74,16 +71,21 @@ p {
 
 /* Title Section */
 
-#title .container-fluid {
-  padding: 3% 15%;
+#title {
+  background-color: #ff4c68;
+  color: #fff;
   text-align: left;
+}
+
+#title .container-fluid {
+  padding: 3% 15% 7%;
 }
 
 /* Title Image */
 
 .title-image {
-  transform: rotate(25deg);
   width: 60%;
+  transform: rotate(25deg);
   position: absolute;
   right: 30%;
 }
@@ -94,14 +96,12 @@ p {
   position: relative;
 }
 
-.feature-box {
-  text-align:center;
-  padding: 5%;
-}
-
 .feature-title {
   font-size: 1.5rem;
-  font-weight: bold;
+}
+
+.feature-box {
+  padding: 4.5%;
 }
 
 .icon {
@@ -113,23 +113,23 @@ p {
   color: #ff4c68;
 }
 
-/* Testimonials Section */
+/* Testimonial Section */
 
 #testimonials {
   background-color: #ef8172;
 }
 
-.testimonial-image {
-  border-radius: 100%;
-  margin: 20px;
-  width: 10%;
-}
-
 .testimonial-text {
   font-size: 3rem;
-  font-weight: bold;
   line-height: 1.5;
 }
+
+.testimonial-image {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
 
 #press {
   background-color: #ef8172;
@@ -137,8 +137,8 @@ p {
 }
 
 .press-logo {
-  margin: 20px 20px 50px;
   width: 15%;
+  margin: 20px 20px 50px;
 }
 
 /* Pricing Section */
@@ -149,7 +149,6 @@ p {
 
 .price-text {
   font-size: 3rem;
-  font-weight: bold;
   line-height: 1.5;
 }
 
@@ -160,7 +159,8 @@ p {
 /* CTA Section */
 
 
-/* Footer section */
+/* Footer Section */
+
 
 .social-icon {
   margin: 20px 10px;
