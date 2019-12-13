@@ -59,4 +59,21 @@ CSS3 - rem (root) - isn't affected by other settings
 1. Readability
 2. Modularity
 3. Efficiency
-4. Length 
+4. Length
+
+## Advanced CSS - Combining Selectors
+- Multiple Selectors
+h1, h2 {
+  color: red;
+}
+
+- Hierarchical Selectors
+#title .container-fluid {
+  padding-top: 3%;
+  text-align: left;
+}
+
+- Combined Selectors
+h1.title {
+  color: red;
+}
