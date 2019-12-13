@@ -53,4 +53,10 @@ CSS3 - rem (root) - isn't affected by other settings
 - viewport: the size of the screen that image is being displayed on
 
 ## ID
-- can be used to navigate site 
+- can be used to navigate site
+
+## Code Refactoring
+1. Readability
+2. Modularity
+3. Efficiency
+4. Length 
