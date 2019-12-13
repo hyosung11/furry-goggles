@@ -83,3 +83,13 @@ h1.title {
 2. .classes
 3. <elements>
 - don't use inline style in your HTML
+
+## JavaScript ES6
+
+### keywords
+alert("Hello");
+
+### datatypes => typeof()
+- strings
+- numbers
+- Boolean 
