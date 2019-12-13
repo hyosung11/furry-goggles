@@ -51,3 +51,6 @@ CSS3 - rem (root) - isn't affected by other settings
 - Mobile First
 - @media<type><feature>
 - viewport: the size of the screen that image is being displayed on
+
+## ID
+- can be used to navigate site 
