@@ -92,4 +92,14 @@ alert("Hello");
 ### datatypes => typeof()
 - strings
 - numbers
-- Boolean 
+- Boolean
+
+### Methods
+name.slice(x, y)
+
+name.toUpperCase()
+
+name.toLowerCase()
+
+Increment++
+Decrement--
