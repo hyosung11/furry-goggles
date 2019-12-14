@@ -21,6 +21,9 @@ function getMilk(money) {
   console.log("moveLeft");
   console.log("moveLeft");
   console.log("enterHouse");
+
+  return money % 1.5 // remainder of this division
 }
 
-getMilk(5)
+let change = getMilk(4);
+console.log(change);
