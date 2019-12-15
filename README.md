@@ -110,4 +110,14 @@ Decrement--
 
 ## Document Object Model (DOM)
 get property
-set property 
+set property
+
+Properties
+- innerHTML
+- style
+- firstChild
+
+Methods
+- click()
+- appendChild()
+- setAttribute()
