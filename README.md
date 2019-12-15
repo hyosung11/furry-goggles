@@ -103,3 +103,11 @@ name.toLowerCase()
 
 Increment++
 Decrement--
+
+### Loops
+- while: checking state
+- for: iterate
+
+## Document Object Model (DOM)
+get property
+set property 
