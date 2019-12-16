@@ -131,3 +131,27 @@ function respondToKey(event) {
 }
 
 Callback Function - the function that gets passed in as an input
+
+## Node.js
+
+### REPL ( Read Evaluation Print Loops)
+
+hyosung11@HyoSungs-iMac node % node
+Welcome to Node.js v12.13.1.
+Type ".help" for more information.
+> log
+Thrown:
+ReferenceError: log is not defined
+> console.log("hi there!")
+hi there!
+undefined
+> 3 + 5
+8
+
+To Exit
+.exit or
+control + C
+
+### NPM - Node Package Manager
+
+### Express - a node framework 
