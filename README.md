@@ -158,4 +158,6 @@ control + C
 
 ## Git, Github and Version Control
 - commit messages in present tense convention
-- git checkout to revert to previous version 
+- git checkout to revert to previous version
+
+- practice with branching 
