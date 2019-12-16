@@ -160,4 +160,13 @@ control + C
 - commit messages in present tense convention
 - git checkout to revert to previous version
 
-- practice with branching 
+- practice with branching
+
+- Forking and Pulling Requests
+
+## APIs - Application Programming Interface
+- a set of commands, functions, protocols, and objects that programmers can use to create software or interact with an external system.
+- It provides developers with standard commands for performing common operations so they don't have to write the code from scratch.
+- APIs to interact with an external system.
+
+### cURL - 'Client for URLs'
