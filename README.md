@@ -121,3 +121,13 @@ Methods
 - click()
 - appendChild()
 - setAttribute()
+
+Higher Order Function - a function that takes another function as an input
+
+document.addEventListener("keydown", respondToKey(event));
+
+function respondToKey(event) {
+  console.log("Key pressed.");
+}
+
+Callback Function - the function that gets passed in as an input
