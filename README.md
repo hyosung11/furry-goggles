@@ -157,3 +157,4 @@ control + C
 ### Express - a node framework
 
 ## Git, Github and Version Control
+- commit messages in present tense convention
