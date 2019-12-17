@@ -175,4 +175,6 @@ control + C
 - JavaScript Object Notation
 
 ### XML
-- eXtensible Markup Language format 
+- eXtensible Markup Language format
+
+### API Calls with Parameters
