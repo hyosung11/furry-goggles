@@ -25,7 +25,7 @@ app.post('/', function(req, res) {
   const firstName = req.body.firstName;
   const lastName = req.body.lastName;
   const email = req.body.email;
-  const apiKey = process.env.API_KEY;
+  let apiKey = process.env.API_KEY;
 
 
   const data = {
@@ -54,19 +54,23 @@ app.post('/', function(req, res) {
 
   request(options, function (error, response, body) {
     if (error) {
-      res.send("There was an error with signing up, please try again!")
+      res.sendFile(__dirname + "/failure.html");
     } else {
       if (response.statusCode === 200) {
-        res.send("Successfully subscribed!")
+        res.sendFile(__dirname + "/success.html");
       } else {
-        res.send("There was an error with signing up, please try again!")
+        res.sendFile(__dirname + "/failure.html");
       }
     }
   });
 
 });
 
+app.post('/failure', function(req, res) {
+  res.redirect('/')
+})
+
 // listener
-app.listen(3000, function() {
+app.listen(process.env.PORT || 3000, function() {
   console.log("Server is running on port 3000");
 });
