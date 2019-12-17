@@ -170,3 +170,9 @@ control + C
 - APIs to interact with an external system.
 
 ### cURL - 'Client for URLs'
+
+### JSON - data interchange format
+- JavaScript Object Notation
+
+### XML
+- eXtensible Markup Language format 
