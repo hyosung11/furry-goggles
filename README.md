@@ -178,3 +178,5 @@ control + C
 - eXtensible Markup Language format
 
 ### API Calls with Parameters
+
+### API Key - Authentication 
