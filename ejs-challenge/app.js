@@ -17,11 +17,19 @@ app.set('view engine', 'ejs');
 app.use(bodyParser.urlencoded({extended: true}));
 app.use(express.static("public"));
 
+// global variables
+
+const posts = [];
+
 // get route
 
 app.get('/', (req, res) => {
-  res.render('home', {startingContent: homeStartingContent});
-})
+  res.render('home', {
+    startingContent: homeStartingContent,
+    posts: posts
+  });
+
+});
 
 //  about route
 
@@ -35,7 +43,22 @@ app.get('/contact', (req, res) => {
   res.render('contact', {contactContent: contactStartingContent});
 })
 
+// compose route
 
+app.get('/compose', (req, res) => {
+  res.render('compose');
+})
+
+app.post('/compose', (req, res) => {
+  const post = {
+    title: req.body.postTitle,
+    content: req.body.postBody
+  };
+
+  posts.push(post);
+  res.redirect('/');
+
+});
 
 
 
