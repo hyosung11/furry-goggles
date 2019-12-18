@@ -239,3 +239,44 @@ Scalability
 - can be distributed
 
 ![database comparison chart](images/databaseComparisonTable.png)
+
+CRUD
+Create
+Read
+Update
+Destroy
+
+# mongoDB installation path
+export PATH=$PATH:/usr/local/Homebrew/Library/Taps/mongodb/bin
+
+### Install mongoDB with homebrew
+Lucas · Lecture 287 · 19 days ago
+Hello guys , for those struggling I installing mongodb I found this stackoverflow response very useful :)
+
+install hombrew and run the following commands
+
+sudo chown -R $(whoami) $(brew --prefix)/*
+
+then
+
+brew tap mongodb/brew
+
+then
+
+brew install mongodb-community@4.2
+
+and
+
+brew services start mongodb-community
+
+or
+
+mongod --config /usr/local/etc/mongod.conf
+
+then
+
+ps aux | grep -v grep | grep mongod
+
+and
+
+mongo --version
