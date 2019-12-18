@@ -212,3 +212,30 @@ $git push origin master
 ### Express Routing Parameters
 
 ### Lodash - utility library
+
+# Databases
+## SQL NoSQL
+- Structured Query Language
+- Not only Structured Query Language
+
+Working with node.js most popular databases
+- SQL: Postgres and MySQL
+-NoSQL: mongoDB and redis
+
+Structure
+SQL: data in a table
+- square off fields with 'null'
+- structured
+- relational (group related pieces of data into individual tables and link tables via IDs)
+
+NoSQL: data represented as JSON objects
+- data records don't have to be same shape or structure
+- flexible
+- non-relational (use references, can get repetitive and clumsy and not as efficient or fast as a SQL db)
+- e.g., one to many relationship
+
+Scalability
+- NoSQL
+- can be distributed
+
+![database comparison chart](images/databaseComparisonTable.png)
