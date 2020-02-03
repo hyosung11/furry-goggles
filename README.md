@@ -280,3 +280,11 @@ ps aux | grep -v grep | grep mongod
 and
 
 mongo --version
+
+### [git error fix](https://stackoverflow.com/a/19085954/11626863)
+
+1. press 'i'
+2. write merge message
+3. press `esc`
+4. write ':wq'
+5. press `return`
