@@ -134,7 +134,7 @@ Callback Function - the function that gets passed in as an input
 
 ## Node.js
 
-### REPL ( Read Evaluation Print Loops)
+### REPL (Read Evaluation Print Loops)
 
 hyosung11@HyoSungs-iMac node % node
 Welcome to Node.js v12.13.1.
@@ -220,7 +220,7 @@ $git push origin master
 
 Working with node.js most popular databases
 - SQL: Postgres and MySQL
--NoSQL: mongoDB and redis
+- NoSQL: mongoDB and redis
 
 Structure
 SQL: data in a table
