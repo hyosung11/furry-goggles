@@ -1,11 +1,15 @@
-# furry-goggles
+# The Complete 2020 Web Development Bootcamp (aka furry-goggles)
 
+## Section 1: Front-End Web Development
+
+- [Web Development Course Resources List](https://www.appbrewery.co/p/web-development-course-resources/)
 How to Type Emojis
 command + control + space
 
 <hr> -> horizontal rule
 
-## CSS
+## Section 4: Introduction to CSS
+
 selector {property: value;}
 
 ## Display
@@ -16,17 +20,20 @@ selector {property: value;}
 
 - visibility: hidden;
 
-## Common Inline Elements
+### Common Inline Elements
+
 - Span <span>
 - Images <img>
 - Anchors <a>
 
 ## Positioning
+
 - Relative: to where element should have been
 - Absolute: vis-a-vis parent element
 - Fixed:
 
-## Font Sizing
+### Font Sizing
+
 16px = 100% = 1em (the width of the capital letter M)
 CSS3 - rem (root) - isn't affected by other settings
 
@@ -156,13 +163,20 @@ control + C
 
 ### Express - a node framework
 
-## Git, Github and Version Control
+### Section 19: Git, Github and Version Control
+
 - commit messages in present tense convention
 - git checkout to revert to previous version
-
 - practice with branching
-
 - Forking and Pulling Requests
+
+### [git error fix](https://stackoverflow.com/a/19085954/11626863)
+
+1. press 'i'
+2. write merge message
+3. press `esc`
+4. write ':wq'
+5. press `return`
 
 ## APIs - Application Programming Interface
 - a set of commands, functions, protocols, and objects that programmers can use to create software or interact with an external system.
@@ -213,14 +227,18 @@ $git push origin master
 
 ### Lodash - utility library
 
-# Databases
-## SQL NoSQL
-- Structured Query Language
-- Not only Structured Query Language
+## Section 23: Databases
+
+### Databases Explained: SQL vs. NoSQL
+
+- SQL: Structured Query Language
+  - Postgres and MySQL
+
+- NoSQL: Not only Structured Query Language
+  - mongoDB and redis
 
 Working with node.js most popular databases
-- SQL: Postgres and MySQL
-- NoSQL: mongoDB and redis
+
 
 Structure
 SQL: data in a table
@@ -240,51 +258,49 @@ Scalability
 
 ![database comparison chart](images/databaseComparisonTable.png)
 
+## Section 24: SQL
+
 CRUD
 Create
 Read
 Update
 Destroy
 
-# mongoDB installation path
-export PATH=$PATH:/usr/local/Homebrew/Library/Taps/mongodb/bin
+## Section 25: MongoDB
 
-### Install mongoDB with homebrew
-Lucas · Lecture 287 · 19 days ago
-Hello guys , for those struggling I installing mongodb I found this stackoverflow response very useful :)
+### Installing MongoDB on Mac - [x]
 
-install hombrew and run the following commands
+- `/Users/hyosung11/data/db`
 
-sudo chown -R $(whoami) $(brew --prefix)/*
+#### Terminal Commands
 
-then
+- `ps aux | grep -v grep | grep mongod`
+- `ps -A | grep mongod` stops mongodb processes
 
-brew tap mongodb/brew
+### MongoDB CRUD Operations in the Shell
 
-then
+- Create
 
-brew install mongodb-community@4.2
-
-and
-
-brew services start mongodb-community
-
-or
-
-mongod --config /usr/local/etc/mongod.conf
-
-then
-
-ps aux | grep -v grep | grep mongod
-
-and
-
-mongo --version
-
-### [git error fix](https://stackoverflow.com/a/19085954/11626863)
-
-1. press 'i'
-2. write merge message
-3. press `esc`
-4. write ':wq'
-5. press `return`
+```
+  - > show dbs
+admin   0.000GB
+config  0.000GB
+local   0.000GB
+> use shopDB
+switched to db shopDB
+> show dbs
+admin   0.000GB
+config  0.000GB
+local   0.000GB
+> db
+shopDB
+> db.products.insertOne({_id:1, name: "Pen", price: 1.20})
+{ "acknowledged" : true, "insertedId" : 1 }
+> show collections
+products
+> db
+shopDB
+> db.products.insertOne({_id:2, name: "Pencil", price: 0.80})
+{ "acknowledged" : true, "insertedId" : 2 }
+> 
+```
