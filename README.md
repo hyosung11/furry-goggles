@@ -277,12 +277,12 @@ Destroy
 - `ps aux | grep -v grep | grep mongod`
 - `ps -A | grep mongod` stops mongodb processes
 
-### MongoDB CRUD Operations in the Shell
+### [MongoDB CRUD Operations in the Shell](https://docs.mongodb.com/manual/crud/)
 
-- Create
+#### Create
 
-```
-  - > show dbs
+```bash
+> show dbs
 admin   0.000GB
 config  0.000GB
 local   0.000GB
@@ -302,5 +302,47 @@ products
 shopDB
 > db.products.insertOne({_id:2, name: "Pencil", price: 0.80})
 { "acknowledged" : true, "insertedId" : 2 }
+>
+```
+
+#### Reading & Queries
+
+```bash
+> db.products.find()
+{ "_id" : 1, "name" : "Pen", "price" : 1.2 }
+{ "_id" : 2, "name" : "Pencil", "price" : 0.8 }
+> db.products.find({name: "Pencil"})
+{ "_id" : 2, "name" : "Pencil", "price" : 0.8 }
+> db.products.find({price: {$gt: 1}})
+{ "_id" : 1, "name" : "Pen", "price" : 1.2 }
+> db.products.find({_id: 1}, {name: 1})
+{ "_id" : 1, "name" : "Pen" }
+> db.products.find({_id: 1}, {name: 1, _id: 0})
+{ "name" : "Pen" }
 > 
+```
+
+#### Update
+
+```bash
+> db.products.updateOne({_id: 1}, {$set: {stock: 32}})
+{ "acknowledged" : true, "matchedCount" : 1, "modifiedCount" : 1 }
+> db.products.find()
+{ "_id" : 1, "name" : "Pen", "price" : 1.2, "stock" : 32 }
+{ "_id" : 2, "name" : "Pencil", "price" : 0.8 }
+> db.products.updateOne({_id: 2}, {$set: {stock: 12}})
+{ "acknowledged" : true, "matchedCount" : 1, "modifiedCount" : 1 }
+> db.products.find()
+{ "_id" : 1, "name" : "Pen", "price" : 1.2, "stock" : 32 }
+{ "_id" : 2, "name" : "Pencil", "price" : 0.8, "stock" : 12 }
+>
+```
+#### Delete
+
+```bash
+> db.products.deleteOne({_id: 2})
+{ "acknowledged" : true, "deletedCount" : 1 }
+> db.products.find()
+{ "_id" : 1, "name" : "Pen", "price" : 1.2, "stock" : 32 }
+>
 ```
