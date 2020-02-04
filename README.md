@@ -270,12 +270,15 @@ Destroy
 
 ### Installing MongoDB on Mac - [x]
 
-- `/Users/hyosung11/data/db`
+- `/Users/hyosung11/data/db` location of database
 
 #### Terminal Commands
 
+- `brew services start mongodb-community`
+- `brew services stop mongodb-community`
 - `ps aux | grep -v grep | grep mongod`
 - `ps -A | grep mongod` stops mongodb processes
+- `sudo pkill -f mongod`
 
 ### [MongoDB CRUD Operations in the Shell](https://docs.mongodb.com/manual/crud/)
 
@@ -345,4 +348,82 @@ shopDB
 > db.products.find()
 { "_id" : 1, "name" : "Pen", "price" : 1.2, "stock" : 32 }
 >
+```
+
+### Relationships in MongoDB
+
+```bash
+> db.products.insert(
+...   {
+...     _id: 3,
+...     name: "Rubber", 
+...     price: 1.30,
+...     stock: 43,
+...     reviews: [
+...       {
+...         authorName: "Sally",
+...         rating: 5,
+...         review: "Best rubber ever"
+...       },
+...       {
+...         authorName: "John",
+...         rating: 5,
+...         review: "Awesome rubber"
+...       }
+...     ]
+...   }
+... )
+WriteResult({ "nInserted" : 1 })
+> db.products.find()
+{ "_id" : 1, "name" : "Pen", "price" : 1.2, "stock" : 32 }
+{ "_id" : 3, "name" : "Rubber", "price" : 1.3, "stock" : 43, "reviews" : [ { "authorName" : "Sally", "rating" : 5, "review" : "Best rubber ever" }, { "authorName" : "John", "rating" : 5, "review" : "Awesome rubber" } ] }
+> db.products.insert(
+...   {
+...     _id: 2,
+...     name: "Pencil", 
+...     price: 0.8,
+...     stock: 12,
+...     reviews: [
+...       {
+...         authorName: "Omi",
+...         rating: 4,
+...         review: "Nice smooth feel in my hand"
+...       },
+...       {
+...         authorName: "SungOh",
+...         rating: 2,
+...         review: "I didn't like the taste of the point."
+...       }
+...     ]
+...   }
+... )
+WriteResult({ "nInserted" : 1 })
+> db.products.find()
+{ "_id" : 1, "name" : "Pen", "price" : 1.2, "stock" : 32 }
+{ "_id" : 3, "name" : "Rubber", "price" : 1.3, "stock" : 43, "reviews" : [ { "authorName" : "Sally", "rating" : 5, "review" : "Best rubber ever" }, { "authorName" : "John", "rating" : 5, "review" : "Awesome rubber" } ] }
+{ "_id" : 2, "name" : "Pencil", "price" : 0.8, "stock" : 12, "reviews" : [ { "authorName" : "Omi", "rating" : 4, "review" : "Nice smooth feel in my hand" }, { "authorName" : "SungOh", "rating" : 2, "review" : "I didn't like the taste of the point." } ] }
+>
+```
+
+#### Relating Products to an Order
+
+```bash
+{
+  _id : 1,
+  name: "Pen",
+  price: 1.20,
+  stock: 32
+}
+
+{
+  _id : 2,
+  name: "Pencil",
+  price: 0.80,
+  stock: 12
+}
+
+{
+  orderNumber: 3243,
+  productsOrdered: [1, 2]
+}
 ```
