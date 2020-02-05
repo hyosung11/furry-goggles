@@ -377,7 +377,7 @@ WriteResult({ "nInserted" : 1 })
 > db.products.find()
 { "_id" : 1, "name" : "Pen", "price" : 1.2, "stock" : 32 }
 { "_id" : 3, "name" : "Rubber", "price" : 1.3, "stock" : 43, "reviews" : [ { "authorName" : "Sally", "rating" : 5, "review" : "Best rubber ever" }, { "authorName" : "John", "rating" : 5, "review" : "Awesome rubber" } ] }
-> db.products.insert(
+> db.products.insertOne(
 ...   {
 ...     _id: 2,
 ...     name: "Pencil", 
@@ -427,3 +427,8 @@ WriteResult({ "nInserted" : 1 })
   productsOrdered: [1, 2]
 }
 ```
+
+### Working with the Native MongoDB Driver
+
+- Use the MongoDB native driver
+- Use ODM (Object Document Mapper) called mongoose
