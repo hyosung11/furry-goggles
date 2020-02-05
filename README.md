@@ -432,3 +432,9 @@ WriteResult({ "nInserted" : 1 })
 
 - Use the MongoDB native driver
 - Use ODM (Object Document Mapper) called mongoose
+
+## Section 26: Mongoose
+
+### Introduction to [Mongoose](https://mongoosejs.com/)
+
+- elegant mongodb object modeling for node.js
