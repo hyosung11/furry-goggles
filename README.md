@@ -438,3 +438,7 @@ WriteResult({ "nInserted" : 1 })
 ### Introduction to [Mongoose](https://mongoosejs.com/)
 
 - elegant mongodb object modeling for node.js
+
+### Reading from Your Database with Mongoose
+
+### Data Validation with Mongoose
