@@ -2,6 +2,8 @@ const bodyParser = require("body-parser");
 const express = require("express");
 const mongoose = require("mongoose");
 
+mongoose.Promise = global.Promise
+
 const app = express();
 
 app.set('view engine', 'ejs');
@@ -10,7 +12,26 @@ app.use(bodyParser.urlencoded({ extended: true }));
 app.use(express.static("public"));
 
 // DB Connection
-mongoose.connect("mongodb://localhost:27017/todolistDB", { useNewUrlParser: true });
+mongoose.connect("mongodb+srv://admin-minsoo11:minsoo11@cluster0-umgtr.mongodb.net/todolistDB?retryWrites=true&w=majority", {
+    useNewUrlParser: true,
+    useUnifiedTopology: true,
+    useMongoClient: true
+});
+
+// const MongoClient = require('mongodb').MongoClient;
+// const uri = "mongodb+srv://admin-minsoo11:minsoo11@cluster0-umgtr.mongodb.net/test?retryWrites=true&w=majority";
+// const client = new MongoClient(uri, {
+//     useNewUrlParser: true
+// });
+
+// client.connect(err => {
+//     const collection = client.db("test").collection("devices");
+//     // perform actions on the collection object
+//     client.close();
+// });
+
+
+mongoose.set('useFindAndModify', false);
 
 // Schema
 const itemsSchema = {
