@@ -457,3 +457,6 @@ WriteResult({ "nInserted" : 1 })
 
 ### Creating Custom Lists Using Express Route Parameters
 
+### Adding New Items to the Custom ToDoLists
+
+### Revisiting Lodash and Deleting Items from Custom ToDoLists
