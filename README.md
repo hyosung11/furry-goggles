@@ -447,3 +447,4 @@ WriteResult({ "nInserted" : 1 })
 
 ### Establishing Relationships and Embedding Documents Using Mongoose
 
+## Section 27: Putting Everything Together
