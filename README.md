@@ -472,3 +472,26 @@ WriteResult({ "nInserted" : 1 })
 ## Section 29: Boss Level Challenge 4 - Blog Website Upgrade
 
 ## Section 30: Build Your Own RESTful API from Scratch
+
+### What is REST?
+
+- REpresentational State Transfer (REST)
+- Client <- API -> Server
+- REST is an architectural style for designing APIs (others include SOAP, GraphQL, and Falcor)
+- Rules of REST
+  - Use HTTP Request Verbs (CRUD equivalents)
+    - GET (aka READ)
+    - POST (aka CREATE)
+    - PUT / PATCH (UPDATE)
+      - PUT: sending entire entry
+      - PATCH: sending only a piece of data
+    - DELETE(aka DELETE)
+  - Use specific pattern of routes/endpoint URLs
+
+### Creating a Database with Robo 3T (GUI)
+
+### Set Up Server
+
+### GET, POST, DELETE Routes
+
+### Chained Route Handling Using Express
