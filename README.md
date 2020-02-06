@@ -466,3 +466,9 @@ WriteResult({ "nInserted" : 1 })
 ### How to Deploy Web Apps with a Database
 
 ### How to Setup MongoDB Atlas
+
+### Deploying an App with a Database to Heroku
+
+## Section 29: Boss Level Challenge 4 - Blog Website Upgrade
+
+## Section 30: Build Your Own RESTful API from Scratch
