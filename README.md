@@ -442,3 +442,8 @@ WriteResult({ "nInserted" : 1 })
 ### Reading from Your Database with Mongoose
 
 ### Data Validation with Mongoose
+
+### Updating and Deleting Data Using Mongoose
+
+### Establishing Relationships and Embedding Documents Using Mongoose
+
