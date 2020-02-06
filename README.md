@@ -450,3 +450,10 @@ WriteResult({ "nInserted" : 1 })
 ## Section 27: Putting Everything Together
 
 ### Rendering Database Items in the ToDoList App
+
+### Adding New Items to Our ToDoList Database
+
+### Deleting Items from Our ToDoList Database
+
+### Creating Custom Lists Using Express Route Parameters
+
