@@ -508,4 +508,8 @@ WriteResult({ "nInserted" : 1 })
 
 ### How to Review the Source Code
 
-### Level 2 - Database Encryption
+### Level 2 Authentication - Database Encryption
+
+- Caesar Cipher: letter substitution cycle
+- [Cryptii](https://cryptii.com/): Modular conversion, encoding and encryption online
+- mongoose-encryption
