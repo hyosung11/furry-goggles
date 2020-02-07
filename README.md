@@ -502,4 +502,10 @@ WriteResult({ "nInserted" : 1 })
 
 ### Introduction to Authentication
 
-### Getting Set Up `Secrets\ -\ Starting\ Code`
+### Getting Set Up
+
+### Level 1 Security - Register Users with Username and Password
+
+### How to Review the Source Code
+
+### Level 2 - Database Encryption
