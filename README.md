@@ -322,7 +322,7 @@ shopDB
 { "_id" : 1, "name" : "Pen" }
 > db.products.find({_id: 1}, {name: 1, _id: 0})
 { "name" : "Pen" }
-> 
+>
 ```
 
 #### Update
@@ -356,7 +356,7 @@ shopDB
 > db.products.insert(
 ...   {
 ...     _id: 3,
-...     name: "Rubber", 
+...     name: "Rubber",
 ...     price: 1.30,
 ...     stock: 43,
 ...     reviews: [
@@ -380,7 +380,7 @@ WriteResult({ "nInserted" : 1 })
 > db.products.insertOne(
 ...   {
 ...     _id: 2,
-...     name: "Pencil", 
+...     name: "Pencil",
 ...     price: 0.8,
 ...     stock: 12,
 ...     reviews: [
@@ -499,3 +499,7 @@ WriteResult({ "nInserted" : 1 })
 ### GET, PUT, PATCH, DELETE a Specific Article
 
 ## Section 31: Authentication & Security
+
+### Introduction to Authentication
+
+### Getting Set Up `Secrets\ -\ Starting\ Code`
