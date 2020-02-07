@@ -537,3 +537,10 @@ WriteResult({ "nInserted" : 1 })
 - Session: A session can be defined as a server-side storage of information that is desired to persist throughout the user's interaction with the web site or web application.
 
 ### Using Passport.js to Add Cookies and Sessions
+
+### Level 6 - OAuth 2.0 & How to Implement Sign In with Google
+
+- Third Party Open Authorization
+  - Granular Access Levels
+  - Read/Read + Write Access
+  - Revoke Access
