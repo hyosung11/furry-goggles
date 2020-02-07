@@ -495,3 +495,5 @@ WriteResult({ "nInserted" : 1 })
 ### GET, POST, DELETE Routes
 
 ### Chained Route Handling Using Express
+
+### GET, PUT, PATCH, DELETE a Specific Article
