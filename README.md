@@ -513,3 +513,5 @@ WriteResult({ "nInserted" : 1 })
 - Caesar Cipher: letter substitution cycle
 - [Cryptii](https://cryptii.com/): Modular conversion, encoding and encryption online
 - mongoose-encryption
+
+### Using Environmental Variables to Keep Secrets Safe
