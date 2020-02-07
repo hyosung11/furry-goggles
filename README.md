@@ -515,3 +515,15 @@ WriteResult({ "nInserted" : 1 })
 - mongoose-encryption
 
 ### Using Environmental Variables to Keep Secrets Safe
+
+### Level 3 - Hashing Passwords
+
+- The Code Book by Simon Singh
+
+### Hacking 101
+
+- [Plain Text Offenders](https://plaintextoffenders.com/)
+- Dictionary Attack (using a Hash Table)
+- [Password Checker Online](http://password-checker.online-domain-tools.com/)
+
+### Level 4 - Hashing and Salting Passwords with bcrypt
