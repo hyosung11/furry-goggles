@@ -497,3 +497,5 @@ WriteResult({ "nInserted" : 1 })
 ### Chained Route Handling Using Express
 
 ### GET, PUT, PATCH, DELETE a Specific Article
+
+## Section 31: Authentication & Security
