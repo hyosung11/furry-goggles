@@ -526,4 +526,14 @@ WriteResult({ "nInserted" : 1 })
 - Dictionary Attack (using a Hash Table)
 - [Password Checker Online](http://password-checker.online-domain-tools.com/)
 
-### Level 4 - Hashing and Salting Passwords with bcrypt
+### Level 4 - Salting and Hashing Passwords with bcrypt
+
+- bcrypt: one of the industry standard hashing algorithms used to keep user passwords
+- salt rounds: number of times the password is hashed
+
+### Level 5 - Cookies and Sessions
+
+- Cookies: small pieces of information websites store on your computer.
+- Session: A session can be defined as a server-side storage of information that is desired to persist throughout the user's interaction with the web site or web application.
+
+### Using Passport.js to Add Cookies and Sessions
