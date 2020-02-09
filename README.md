@@ -544,3 +544,8 @@ WriteResult({ "nInserted" : 1 })
   - Granular Access Levels
   - Read/Read + Write Access
   - Revoke Access
+
+### [Secrets Github Repo](https://github.com/londonappbrewery/Authentication-Secrets)
+
+## Section 32: React
+
