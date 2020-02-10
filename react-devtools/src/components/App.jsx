@@ -1,13 +1,31 @@
 import React from "react";
 import Card from "./Card";
 import contacts from "../contacts";
+import Avatar from "./Avatar";
+
+function createCard(contact) {
+  return (
+    <Card
+      key={contact.id}
+      id={contact.id}
+      name={contact.name}
+      img={contact.imgURL}
+      tel={contact.phone}
+      email={contact.email}
+    />
+  );
+}
 
 function App() {
   return (
     <div>
       <h1 className="heading">My Contacts</h1>
+      <Avatar 
+        img="https://secureservercdn.net/198.71.233.109/u5h.d3d.myftpupload.com/wp-content/uploads/2019/09/DawnStar-Logo-black-150x150.png"
+      />
+      {contacts.map(createCard)}
 
-      <Card
+      {/* <Card
         name={contacts[0].name}
         img={contacts[0].imgURL}
         tel={contacts[0].phone}
@@ -24,7 +42,8 @@ function App() {
         img={contacts[2].imgURL}
         tel={contacts[2].phone}
         email={contacts[2].email}
-      />
+      /> */}
+
     </div>
   );
 }
