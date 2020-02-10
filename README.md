@@ -571,4 +571,11 @@ WriteResult({ "nInserted" : 1 })
 
 ### React DevTools
 
-### Mapping Data to Components
+### Mapping Data to Components (emojipedai project)
+
+- [EmojiMeanings](https://www.emojimeanings.net/list-smileys-people-whatsapp)
+- [Description List element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/dl)
+
+### Javascript ES6 Map/Filter/Reduce/Find/FindIndex
+
+### JavaScript ES6 Arrow functions
