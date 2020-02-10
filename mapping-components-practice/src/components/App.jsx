@@ -1,10 +1,29 @@
 import React from "react";
 import Entry from "./Entry";
+import emojipedia from "../emojipedia";
 
-// 1. Create entry component
-// 2. Create props to replace hardcoded data
-// 3.0 Import the emojipedia const.
+console.log(emojipedia);
+
 // 3.1 Map through the emojipedia array and render Entry components
+
+  // {
+  //   id: 1,
+  //   emoji: "💪",
+  //   name: "Tense Biceps",
+  //   meaning:
+  //     "“You can do that!” or “I feel strong!” Arm with tense biceps. Also used in connection with doing sports, e.g. at the gym."
+  // },
+
+function createEntry(emojiTerm) {
+  return (
+    <Entry
+      key={emojiTerm.id}
+      emoji={emojiTerm.emoji}
+      name={emojiTerm.name}
+      description={emojiTerm.meaning}
+    />
+  );
+}
 
 function App() {
   return (
@@ -14,9 +33,8 @@ function App() {
       </h1>
 
       <dl className="dictionary">
-        <Entry />
-        <Entry />
-        <Entry />
+        {emojipedia.map(createEntry)}
+
       </dl>
     </div>
   );
