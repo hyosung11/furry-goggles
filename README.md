@@ -579,3 +579,7 @@ WriteResult({ "nInserted" : 1 })
 ### Javascript ES6 Map/Filter/Reduce/Find/FindIndex
 
 ### JavaScript ES6 Arrow functions
+
+- [Arrow Functions](https://hacks.mozilla.org/2015/06/es6-in-depth-arrow-functions/)
+
+### Keeper App Project Part 2
