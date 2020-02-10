@@ -549,3 +549,14 @@ WriteResult({ "nInserted" : 1 })
 
 ## Section 32: React
 
+### Code Sandbox
+
+### JSX Code Practice
+
+### JavaScript Expression in JSX & ES6 Template Literals
+
+### JSX Attributes & Styling React
+
+### Inline Styling for React Elements
+
+### React Components
