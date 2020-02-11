@@ -610,3 +610,15 @@ WriteResult({ "nInserted" : 1 })
 
 ### React Forms
 
+- [Controlled Components](https://reactjs.org/docs/forms.html#controlled-components)
+- React state as the "single source of truth"
+
+### Class Components vs Functional Components
+
+- [State and Lifecycle](https://reactjs.org/docs/state-and-lifecycle.html)
+- [Introducing Hooks](https://reactjs.org/docs/hooks-intro.html)
+- [Hooks FAQ](https://reactjs.org/docs/hooks-faq.html#should-i-use-hooks-classes-or-a-mix-of-both)
+
+### Changing Complex State
+
+- [SyntheticEvent](https://reactjs.org/docs/events.html)
