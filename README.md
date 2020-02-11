@@ -587,3 +587,17 @@ WriteResult({ "nInserted" : 1 })
 ### React Conditional Rendering with the Ternary Operator & AND Operator
 
 - [Single Responsibility Principle](https://en.wikipedia.org/wiki/Single_responsibility_principle)
+
+### State in React - Declarative vs Imperative Programming
+
+- UI - f(State)
+- Declarative programming is a programming paradigm … that expresses the logic of a computation without describing its control flow.
+- Imperative programming is a programming paradigm that uses statements that change a program’s state
+
+### React Hooks - useState
+
+- [useState](https://reactjs.org/docs/hooks-reference.html#usestate)
+- must use a hook inside a functional component
+- Destructuring: e.g., `const [count, setCount] = useState(0);`
+
+### JavaScript ES6 Object & Array Destructuring
