@@ -601,3 +601,8 @@ WriteResult({ "nInserted" : 1 })
 - Destructuring: e.g., `const [count, setCount] = useState(0);`
 
 ### JavaScript ES6 Object & Array Destructuring
+
+- [Destructuring Assignment](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Destructuring_assignment)
+- e.g., `const {name, sound, feedingRequirements: {food, water}} = cat;
+
+### Event Handling in React
