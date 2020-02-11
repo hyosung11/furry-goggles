@@ -583,3 +583,7 @@ WriteResult({ "nInserted" : 1 })
 - [Arrow Functions](https://hacks.mozilla.org/2015/06/es6-in-depth-arrow-functions/)
 
 ### Keeper App Project Part 2
+
+### React Conditional Rendering with the Ternary Operator & AND Operator
+
+- [Single Responsibility Principle](https://en.wikipedia.org/wiki/Single_responsibility_principle)
