@@ -594,8 +594,9 @@ WriteResult({ "nInserted" : 1 })
 - Declarative programming is a programming paradigm … that expresses the logic of a computation without describing its control flow.
 - Imperative programming is a programming paradigm that uses statements that change a program’s state
 
-### React Hooks - useState
+### [React Hooks](https://reactjs.org/docs/hooks-overview.html)
 
+- Hooks are a new addition in React 16.8. They let you use state and other React features without writing a class.
 - [useState](https://reactjs.org/docs/hooks-reference.html#usestate)
 - must use a hook inside a functional component
 - Destructuring: e.g., `const [count, setCount] = useState(0);`
@@ -606,3 +607,6 @@ WriteResult({ "nInserted" : 1 })
 - e.g., `const {name, sound, feedingRequirements: {food, water}} = cat;
 
 ### Event Handling in React
+
+### React Forms
+
