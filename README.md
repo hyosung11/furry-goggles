@@ -635,3 +635,5 @@ WriteResult({ "nInserted" : 1 })
 - [uuid](https://www.npmjs.com/package/uuid)
 
 ### Keeper App Project Part 3
+
+### React Dependencies & Styling the Keeper App
