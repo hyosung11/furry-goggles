@@ -622,3 +622,9 @@ WriteResult({ "nInserted" : 1 })
 ### Changing Complex State
 
 - [SyntheticEvent](https://reactjs.org/docs/events.html)
+
+### JavaScript ES6 Spread Operator
+
+- [Spread syntax](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Spread_syntax)
+- [JavaScript set object key by variable [duplicate]
+](https://stackoverflow.com/questions/11508463/javascript-set-object-key-by-variable?noredirect=1&lq=1)
