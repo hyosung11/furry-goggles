@@ -628,3 +628,8 @@ WriteResult({ "nInserted" : 1 })
 - [Spread syntax](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Spread_syntax)
 - [JavaScript set object key by variable [duplicate]
 ](https://stackoverflow.com/questions/11508463/javascript-set-object-key-by-variable?noredirect=1&lq=1)
+
+### Managing a Component Tree
+
+- [CSS text-decoration Propert](https://www.w3schools.com/cssref/pr_text_text-decoration.asp)
+- [uuid](https://www.npmjs.com/package/uuid)
