@@ -637,3 +637,10 @@ WriteResult({ "nInserted" : 1 })
 ### Keeper App Project Part 3
 
 ### React Dependencies & Styling the Keeper App
+
+- [material-ui/icons](https://www.npmjs.com/package/@material-ui/icons)
+- [material-ui/core](https://www.npmjs.com/package/@material-ui/core)
+- [Material Icons](https://material-ui.com/components/material-icons/#material-icons)
+- [Material Button](https://material-ui.com/components/buttons/#floating-action-buttons)
+- [Zoom API](https://material-ui.com/api/zoom/)
+- [Transparent Textures](https://www.transparenttextures.com/)
