@@ -644,3 +644,30 @@ WriteResult({ "nInserted" : 1 })
 - [Material Button](https://material-ui.com/components/buttons/#floating-action-buttons)
 - [Zoom API](https://material-ui.com/api/zoom/)
 - [Transparent Textures](https://www.transparenttextures.com/)
+
+## Section 33: Bonus Module: Design School 101
+
+### Designer vs Non-Designer Thinking
+
+### Understanding the Mood of Your Color Palette
+
+- Red: love, energy, intensity, excitement
+- Yellow: joy, intellect, attention
+- Green: freshness, safety, growth
+- Blue: stability, trust, serenity
+- Purple: royalty, wealth, feminity
+
+### How to Combine Colors to Create Color Palettes
+
+- Analogous: harmonious
+- Complementary: clashy
+- Split Colors (three colors): less clashy and easier to look at
+- Triadic Colors (three different parts of color wheel): dated from 1990s
+- Monochromatic: combine a color with various amounts of white or black
+
+### Tools for Designing with Color
+
+- [Color Hunt](https://colorhunt.co/)
+- [Flat UI Colors](https://flatuicolors.com/)
+- [Material Palettes](https://www.materialpalette.com/)
+- [ColorZilla](https://www.colorzilla.com/)
