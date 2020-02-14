@@ -671,3 +671,50 @@ WriteResult({ "nInserted" : 1 })
 - [Flat UI Colors](https://flatuicolors.com/)
 - [Material Palettes](https://www.materialpalette.com/)
 - [ColorZilla](https://www.colorzilla.com/)
+
+### Introduction to Typography
+
+- The Serif Type Family
+  - Old Style: Adobe Jenson
+  - Transitional: Baskerville
+  - Modern: Didot
+  - Slab-Serif: American Typewriter
+
+- The Sans-Serif Type Family
+  - Grotesque: News Gothic
+  - Neo-Grotesque: Helvetica
+  - Humanist: Gill Sans
+  - Geometric: Futura
+
+### How Typography Determines Readability
+
+- Open Shapes
+- Ample intercharacter spacing
+- Unambiguous forms
+- Varying propoortions
+
+### How to Combine Fonts Like a Pro
+
+- combine serif and sans-serif: e.g., heading serif and sans-serif body
+- two different fonts usually good typography
+- appreciate the mood of the typeface and keep the era similar (don't mix different moods)
+- [WhatFont](chrome extension installed)
+- [Font Squirrel](https://www.fontsquirrel.com/)
+- [Sky Fonts](https://www.fonts.com/browse/font-tools/skyfonts)
+
+### User Interface (UI) Design
+
+1. If an App was a Journey
+2. How to Pretend You Have a Designer
+   1. Edge Alignment
+   2. Center Alignment
+3. How to get more clickthrough
+   1. give user reminder of the real world experience
+   2. function comes before form
+4. How to design if you know nothing about design
+   1. start simply and then go upwards
+5. Make text visible on images
+   1. contrast overlay
+   2. graded opacity
+6. How to become an attention wizard
+   1. guide the user's attention
